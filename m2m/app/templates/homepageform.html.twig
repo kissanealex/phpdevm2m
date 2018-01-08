@@ -1,0 +1,11 @@
+{% extends 'banner.html.twig' %}
+{% block content %}
+<div id="page-header-div">{{ page_heading_2 }}</div>
+    <div id="page-content-div">
+        <p>{{ page_text }}</p>
+        <form action="{{ action }}" method={{ method }}>
+           
+                <input class="button" type="submit" value="Refresh Messages">
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,45 @@
+body, html {
+font-family: 'Lato', sans-serif;
+background-color: #ccc;
+color: #111;
+}
+
+#page-content-div {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+}
+
+#banner-div {
+    width: 100%;
+  max-width: 1024px;
+  margin: auto;
+}
+
+#banner-div h1 {
+  text-align: center;
+}
+
+#page-header-div {
+  padding: 20px;
+  color: white;
+  background-color: #c0392b;  
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.button {
+  padding: 10px;
+  background-color: #111;
+  color: white;
+  border: 0;
+}
+
+.button:hover {
+  background-color: #c0392b;
+}
