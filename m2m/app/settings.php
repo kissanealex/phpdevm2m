@@ -20,6 +20,11 @@ define('APP_NAME', 'EE m2mConnect Messages');
 define('LANDING_PAGE', $_SERVER['SCRIPT_NAME']);
 define('LOWEST_CENTIGRADE_TEMPERATURE', -273.16 );
 
+define('M2M_USER', "17alexkissane");
+define('M2M_PASSWORD', "Xvskchfe1425");
+DEFINE('M2M_WSDL', "https://m2mconnect.ee.co.uk/orange-soap/services/MessageServiceByCountry?wsdl");
+
+
 $temperature_units = [
   'degreeCelsius' => 'Centigrade',
   'degreeFahrenheit' => 'Fahrenheit',
