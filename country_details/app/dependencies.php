@@ -27,9 +27,16 @@ $container['validator'] = function ($container) {
   return $validator;
 };
 
-$container['tempconv_model'] = function ($container) {
+$container['countrydetails_model'] = function ($container) {
   $class_path = $container->get('settings')['class_path'];
-  require $class_path . 'm2mModel.php';
-  $model = new TemperatureConversionModel();
+  require $class_path . 'CountryDetailsModel.php';
+  $model = new CountryDetailsModel();
+  return $model;
+};
+
+$container['xml_parser'] = function ($container) {
+  $class_path = $container->get('settings')['class_path'];
+  require $class_path . 'XmlParser.php';
+  $model = new XmlParser();
   return $model;
 };
